@@ -1,0 +1,6 @@
+source .venv/bin/activate.fish 
+sudo systemctl start postgresql
+python database/db_operations.py # only for updating the db
+python scrapers/scraper_manager.py # for scraping the data from the apis
+streamlit run dashboard/app.py
+sudo su postgres

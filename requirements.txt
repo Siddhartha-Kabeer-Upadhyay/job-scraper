@@ -1,0 +1,25 @@
+# Core Dependencies
+python-dotenv==1.0.0
+psycopg2-binary==2.9.9
+pandas>=2.1.0
+numpy>=1.24.2,<2.0.0
+
+# Scraping
+python-jobspy==1.1.45
+beautifulsoup4==4.12.2
+requests==2.31.0
+selenium==4.15.2
+webdriver-manager==4.0.1
+
+# NLP & Text Processing
+spacy>=3.7.0
+nltk==3.8.1
+
+# Dashboard
+streamlit>=1.29.0
+plotly>=5.18.0
+matplotlib>=3.8.0
+
+# Utilities
+tqdm>=4.66.0
+tenacity>=8.2.0
