@@ -1,0 +1,66 @@
+{
+  "programming_languages": [
+    "Python", "Java", "JavaScript", "C++", "C#", "Ruby", "PHP", "Swift", "Kotlin", 
+    "Go", "Rust", "TypeScript", "Scala", "R", "MATLAB", "Perl", "Shell", "Bash",
+    "PowerShell", "Dart", "Objective-C", "Visual Basic", "Groovy", "Lua"
+  ],
+  "web_technologies": [
+    "HTML", "CSS", "React", "Angular", "Vue.js", "Node.js", "Express.js", "Django",
+    "Flask", "FastAPI", "Spring Boot", "ASP.NET", "Next.js", "Nuxt.js", "jQuery",
+    "Bootstrap", "Tailwind CSS", "SASS", "LESS", "Webpack", "Vite", "REST API",
+    "GraphQL", "WebSocket", "HTTP", "AJAX", "JSON", "XML"
+  ],
+  "databases": [
+    "SQL", "MySQL", "PostgreSQL", "MongoDB", "Oracle", "SQL Server", "SQLite",
+    "Redis", "Cassandra", "DynamoDB", "Elasticsearch", "Neo4j", "MariaDB",
+    "CouchDB", "Firebase", "Snowflake", "BigQuery", "Redshift"
+  ],
+  "cloud_platforms": [
+    "AWS", "Azure", "GCP", "Google Cloud", "Heroku", "DigitalOcean", "IBM Cloud",
+    "Oracle Cloud", "Alibaba Cloud", "Linode", "Vercel", "Netlify", "CloudFlare"
+  ],
+  "devops_tools": [
+    "Docker", "Kubernetes", "Jenkins", "GitLab CI", "GitHub Actions", "CircleCI",
+    "Travis CI", "Terraform", "Ansible", "Chef", "Puppet", "Vagrant", "Git",
+    "SVN", "Mercurial", "CI/CD", "Nginx", "Apache", "Linux", "Unix", "Windows Server"
+  ],
+  "data_science_ml": [
+    "Machine Learning", "Deep Learning", "Neural Networks", "TensorFlow", "PyTorch",
+    "Keras", "Scikit-learn", "Pandas", "NumPy", "SciPy", "Jupyter", "Data Analysis",
+    "Data Visualization", "NLP", "Natural Language Processing", "Computer Vision",
+    "OpenCV", "MLOps", "Feature Engineering", "Model Deployment", "Statistics",
+    "A/B Testing", "Hypothesis Testing"
+  ],
+  "big_data": [
+    "Hadoop", "Spark", "Kafka", "Airflow", "Hive", "Pig", "HBase", "Flink",
+    "Storm", "Data Pipeline", "ETL", "Data Warehouse", "Data Lake", "Databricks"
+  ],
+  "business_intelligence": [
+    "Tableau", "Power BI", "Looker", "QlikView", "Metabase", "Superset",
+    "Excel", "Google Sheets", "Data Studio", "SAP", "Salesforce"
+  ],
+  "mobile_development": [
+    "Android", "iOS", "React Native", "Flutter", "Xamarin", "Ionic",
+    "SwiftUI", "Jetpack Compose", "Mobile App Development"
+  ],
+  "testing": [
+    "Unit Testing", "Integration Testing", "Selenium", "Jest", "Mocha",
+    "Cypress", "JUnit", "TestNG", "Pytest", "Postman", "JMeter", "Load Testing",
+    "Performance Testing", "Test Automation", "QA", "Quality Assurance"
+  ],
+  "security": [
+    "Cybersecurity", "Information Security", "Network Security", "Penetration Testing",
+    "Ethical Hacking", "OWASP", "SSL", "TLS", "OAuth", "JWT", "Authentication",
+    "Authorization", "Encryption", "Firewall", "VPN"
+  ],
+  "soft_skills": [
+    "Agile", "Scrum", "Kanban", "JIRA", "Confluence", "Communication",
+    "Team Collaboration", "Problem Solving", "Critical Thinking", "Leadership",
+    "Project Management", "Time Management", "Analytical Skills"
+  ],
+  "other_tools": [
+    "VS Code", "IntelliJ IDEA", "PyCharm", "Eclipse", "Vim", "Emacs",
+    "Postman", "Swagger", "Figma", "Adobe XD", "Sketch", "Photoshop",
+    "Microsoft Office", "Slack", "Teams", "Zoom", "Notion", "Trello"
+  ]
+}

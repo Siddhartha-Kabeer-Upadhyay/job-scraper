@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Intelligence Platform - Design Showcase</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 3rem;
+        }
+        
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+        }
+        
+        .showcase-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .card h3 {
+            color: #1f2937;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .card p {
+            color: #6b7280;
+            line-height: 1.6;
+        }
+        
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .color-swatch {
+            height: 60px;
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: flex-end;
+            padding: 0.5rem;
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+        }
+        
+        .metric-card {
+            background: linear-gradient(135deg, #3b82f6, #2563eb);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            color: white;
+            text-align: center;
+        }
+        
+        .metric-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        
+        .metric-label {
+            font-size: 0.875rem;
+            opacity: 0.9;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .feature-list {
+            list-style: none;
+            margin-top: 1rem;
+        }
+        
+        .feature-list li {
+            padding: 0.5rem 0;
+            color: #4b5563;
+            display: flex;
+            align-items: center;
+        }
+        
+        .feature-list li:before {
+            content: "✓";
+            color: #10b981;
+            font-weight: bold;
+            margin-right: 0.75rem;
+            font-size: 1.25rem;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 0.35rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin: 0.25rem;
+        }
+        
+        .badge-primary { background: #3b82f6; color: white; }
+        .badge-success { background: #10b981; color: white; }
+        .badge-warning { background: #f59e0b; color: white; }
+        .badge-purple { background: #a855f7; color: white; }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 3rem;
+            opacity: 0.9;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            .showcase-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Job Intelligence Platform</h1>
+            <p>Modern UI/UX Design Showcase</p>
+        </div>
+        
+        <div class="showcase-grid">
+            <div class="card">
+                <h3>🎨 Color Palette</h3>
+                <p>Professional blues, purples, and semantic colors</p>
+                <div class="color-grid">
+                    <div class="color-swatch" style="background: #3b82f6;">Primary</div>
+                    <div class="color-swatch" style="background: #a855f7;">Secondary</div>
+                    <div class="color-swatch" style="background: #10b981;">Success</div>
+                    <div class="color-swatch" style="background: #f59e0b;">Warning</div>
+                    <div class="color-swatch" style="background: #ef4444;">Error</div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>📊 Metrics</h3>
+                <p>Gradient metric cards for key statistics</p>
+                <div class="metric-card" style="margin-top: 1rem;">
+                    <div class="metric-value">1,234</div>
+                    <div class="metric-label">Total Jobs</div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>✨ Features</h3>
+                <p>Modern design system with comprehensive components</p>
+                <ul class="feature-list">
+                    <li>Dark/Light mode</li>
+                    <li>Responsive design</li>
+                    <li>Smooth animations</li>
+                    <li>55+ CSS variables</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h3>🎯 Design System Highlights</h3>
+            <p style="margin-bottom: 1rem;">Comprehensive design tokens and utilities</p>
+            <div>
+                <span class="badge badge-primary">Modern Colors</span>
+                <span class="badge badge-success">Responsive Grid</span>
+                <span class="badge badge-warning">Typography Scale</span>
+                <span class="badge badge-purple">Spacing System</span>
+                <span class="badge badge-primary">Shadow Levels</span>
+                <span class="badge badge-success">Border Radius</span>
+                <span class="badge badge-warning">Transitions</span>
+                <span class="badge badge-purple">Breakpoints</span>
+            </div>
+        </div>
+        
+        <div class="showcase-grid" style="margin-top: 2rem;">
+            <div class="card">
+                <h3>📁 New Files</h3>
+                <ul class="feature-list">
+                    <li>theme.py (14 KB)</li>
+                    <li>styles_v2.css (17 KB)</li>
+                    <li>app_redesigned.py (36 KB)</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h3>🎨 Theme Support</h3>
+                <ul class="feature-list">
+                    <li>Light mode (default)</li>
+                    <li>Dark mode</li>
+                    <li>Theme toggle</li>
+                    <li>Persistent state</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h3>♿ Accessibility</h3>
+                <ul class="feature-list">
+                    <li>WCAG AA compliant</li>
+                    <li>Keyboard navigation</li>
+                    <li>Focus states</li>
+                    <li>Screen reader friendly</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Built with ❤️ by Team DBMS | © 2025</p>
+            <p style="margin-top: 0.5rem; font-size: 0.875rem;">Version 2.0 - Modern UI/UX Redesign</p>
+        </div>
+    </div>
+</body>
+</html>
